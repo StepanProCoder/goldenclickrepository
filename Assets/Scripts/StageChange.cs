@@ -30,7 +30,7 @@ public class StageChange : MonoBehaviour
             {
                 if (reward1.transform.localPosition.y > 0 && !sendback)
                 {
-                    reward1.transform.Translate(Vector2.down * Time.deltaTime * 8);
+                    reward1.transform.Translate(Vector2.down * Time.deltaTime * 16);
                 }
                 else if(Input.touchCount > 0)
                 {
@@ -41,7 +41,7 @@ public class StageChange : MonoBehaviour
             {
                 if (reward2.transform.localPosition.y > 0 && !sendback)
                 {
-                    reward2.transform.Translate(Vector2.down * Time.deltaTime * 8);
+                    reward2.transform.Translate(Vector2.down * Time.deltaTime * 16);
                 }
                 else if (Input.touchCount > 0)
                 {
@@ -52,7 +52,7 @@ public class StageChange : MonoBehaviour
             {
                 if (reward3.transform.localPosition.y > 0 && !sendback)
                 {
-                    reward3.transform.Translate(Vector2.down * Time.deltaTime * 8);
+                    reward3.transform.Translate(Vector2.down * Time.deltaTime * 16);
                 }
                 else if (Input.touchCount > 0)
                 {
@@ -68,7 +68,7 @@ public class StageChange : MonoBehaviour
 
                     if (reward1.transform.localPosition.y < 15)
                     {
-                        reward1.transform.Translate(Vector2.up * Time.deltaTime * 8);
+                        reward1.transform.Translate(Vector2.up * Time.deltaTime * 16);
                     }
                     else
                     {
@@ -81,7 +81,7 @@ public class StageChange : MonoBehaviour
                 {
                     if (reward2.transform.localPosition.y < 15)
                     {
-                        reward2.transform.Translate(Vector2.up * Time.deltaTime * 8);
+                        reward2.transform.Translate(Vector2.up * Time.deltaTime * 16);
                     }
                     else
                     {
@@ -94,7 +94,7 @@ public class StageChange : MonoBehaviour
                 {
                     if (reward3.transform.localPosition.y < 15)
                     {
-                        reward3.transform.Translate(Vector2.up * Time.deltaTime * 8);
+                        reward3.transform.Translate(Vector2.up * Time.deltaTime * 16);
                     }
                     else
                     {
